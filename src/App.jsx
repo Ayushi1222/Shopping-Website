@@ -6,6 +6,7 @@ import {useState} from 'react';
 import Navbar from './Navbar';
 import Footers from './Footers';
 import NotFound from './NotFound';
+import SuprSendInbox from '@suprsend/react-inbox';
 function App() {
 
     const dataString=localStorage.getItem("my-cart") || "{}";
@@ -28,6 +29,7 @@ function App() {
      <div >
     <Routes>
       <Route index element={<ProductListPage/>}></Route>
+      <Route path="/" element={<SuprSendInbox/>}></Route>
       <Route path="/details/:id" element={<ProductDetail onAddToCart={handleAddToCart} />} ></Route>
       <Route path="*" element={<NotFound/>}></Route>
     </Routes>

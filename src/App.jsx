@@ -29,7 +29,7 @@ function App() {
      <div >
     <Routes>
       <Route index element={<ProductListPage/>}></Route>
-      <Route path="/" element={<SuprSendInbox/>}></Route>
+      {/* <Route path="/" element={<SuprSendInbox/>}></Route> */}
       <Route path="/details/:id" element={<ProductDetail onAddToCart={handleAddToCart} />} ></Route>
       <Route path="*" element={<NotFound/>}></Route>
     </Routes>

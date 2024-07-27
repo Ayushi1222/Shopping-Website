@@ -26,8 +26,8 @@ function Navbar({ productCount }) {
           <div className="flex items-center">
             <SuprSendInbox 
               workspaceKey="2yP2Ifan2cavl5IpnSPn"
-              subscriberId="jpEO4ZXeA1IzviMWTEpOE74GqpmjiNdSWEZXt1nDme8"
-              distinctId="ayushikatroliya17h@gmail.com"
+              subscriberId="CUj4mabsS3l_WFI5cWa8jW8RLmK9a0RoC1N4VcUpy6k"
+              distinctId="ayushihereby@gmail.com"
             />
             <div className="ml-6 relative">
               <button className="text-primary-default hover:text-gray-900 focus:outline-none">

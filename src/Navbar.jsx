@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { HiOutlineShoppingBag, HiOutlineMenu, HiOutlineX } from "react-icons/hi";
 import SuprSendInbox from '@suprsend/react-inbox';
 import 'react-toastify/dist/ReactToastify.css';
+import { jsx as _jsx } from "react/jsx-runtime";
 
 function Navbar({ productCount }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

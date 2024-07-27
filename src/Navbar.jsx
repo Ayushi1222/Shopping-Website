@@ -26,7 +26,7 @@ function Navbar({ productCount }) {
           <div className="flex items-center">
             <SuprSendInbox 
               workspaceKey="LWpSOXO4I0ICLHfAtPoJ"
-              subscriberId="m5mcpTaCZj-q_NKbVOKhN30Fz3yuRudUCxDPsyM63oU"
+              subscriberId="jpEO4ZXeA1IzviMWTEpOE74GqpmjiNdSWEZXt1nDme8"
               distinctId="ayushikatroliya17h@gmail.com"
             />
             <div className="ml-6 relative">

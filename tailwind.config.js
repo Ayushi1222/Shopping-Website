@@ -10,7 +10,7 @@ module.exports = {
         15:"50px",
       },
       height:{
-        25:"100px",
+        25:"95px",
       }
     },
   

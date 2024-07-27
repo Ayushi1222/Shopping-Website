@@ -7,6 +7,7 @@ import Navbar from './Navbar';
 import Footers from './Footers';
 import NotFound from './NotFound';
 function App() {
+
     const dataString=localStorage.getItem("my-cart") || "{}";
     const savedData=JSON.parse(dataString);
   const [cart, setCart] =useState(savedData);

@@ -6,10 +6,6 @@ import 'react-toastify/dist/ReactToastify.css';
 function Navbar({ productCount }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  useEffect(() => {
-    console.log('Navbar mounted');
-  }, []);
-
   return (
     <nav className="bg-white shadow-xl">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -27,7 +23,7 @@ function Navbar({ productCount }) {
             <a href="#" className="text-gray-700 hover:text-gray-900 px-4 py-2 rounded-md text-lg font-medium hover:text-primary-default text">About</a>
           </div>
           <div className="flex items-center">
-            <SuprSendInbox
+            <SuprSendInbox 
               workspaceKey="LWpSOXO4I0ICLHfAtPoJ"
               subscriberId="m5mcpTaCZj-q_NKbVOKhN30Fz3yuRudUCxDPsyM63oU"
               distinctId="ayushikatroliya17h@gmail.com"
